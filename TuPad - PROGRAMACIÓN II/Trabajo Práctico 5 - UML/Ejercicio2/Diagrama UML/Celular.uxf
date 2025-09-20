@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notesteaches to &gt;</help_text><element><id>UMLClass</id><coordinates><x>260</x><y>220</y><w>120</w><h>120</h></coordinates><panel_attributes>Usuario
+--
+- nombre: String
+- dni: String
+--
++toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>240</y><w>150</w><h>120</h></coordinates><panel_attributes>Celular
+--
+- imei: String
+- marca: String
+- modelo: String
+--
++ mostrarBateria(): void
++ mostrarUsuario(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>30</y><w>120</w><h>100</h></coordinates><panel_attributes>Bateria
+--
+-modelo: String
+- capacidad: String
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>280</y><w>110</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>120</y><w>40</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element></diagram>

@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notesteaches to &gt;</help_text><element><id>UMLClass</id><coordinates><x>260</x><y>210</y><w>140</w><h>110</h></coordinates><panel_attributes>Cancion
+--
+- titulo: String
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>230</y><w>170</w><h>110</h></coordinates><panel_attributes>Reproductor
+--
+
+--
++ reproducir(Cancion cancion): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>30</y><w>120</w><h>100</h></coordinates><panel_attributes>Titular
+--
+- nombre: String
+- dni: String
+--
++ toString(): String
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>250</y><w>120</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;call&gt;&gt;</panel_attributes><additional_attributes>100;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>120</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>

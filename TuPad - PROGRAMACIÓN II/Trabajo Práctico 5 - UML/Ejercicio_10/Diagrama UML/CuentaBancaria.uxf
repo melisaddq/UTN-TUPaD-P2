@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notesteaches to &gt;</help_text><element><id>UMLClass</id><coordinates><x>260</x><y>210</y><w>150</w><h>140</h></coordinates><panel_attributes>CuentaBancaria
+--
+- cbu: String
+- saldo: String
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>230</y><w>170</w><h>110</h></coordinates><panel_attributes>ClaveSeguridad
+--
+- codigo: String
+- ultimaModificacion: String
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>30</y><w>120</w><h>100</h></coordinates><panel_attributes>Titular
+--
+- nombre: String
+- dni: String
+--
++ toString(): String
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>120</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>270</y><w>120</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>100;10;10;10</additional_attributes></element></diagram>
